@@ -808,7 +808,7 @@ var SEPARATION = 100,
             event.preventDefault();
  
             mouseX = event.touches[0].pageX - windowHalfX;
-            mouseY = event.touches[0].pageY - windowHalfY;
+            //mouseY = event.touches[0].pageY - windowHalfY;
  
         }
  
@@ -821,7 +821,7 @@ var SEPARATION = 100,
             event.preventDefault();
  
             mouseX = event.touches[0].pageX - windowHalfX;
-            mouseY = event.touches[0].pageY - windowHalfY;
+            //mouseY = event.touches[0].pageY - windowHalfY;
  
         }
  
