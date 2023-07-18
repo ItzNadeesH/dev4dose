@@ -1,0 +1,85 @@
+:root {
+    --primary-color: #27374D;
+    --secondary-color: #526D82;
+    --ternary-color: #9DB2BF;
+    --quanternary-color: #DDE6ED;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background: var(--primary-color);
+    padding-top: 9rem;
+    border-top-left-radius: 200px;
+    padding-bottom: 4rem;
+}
+
+.slogan-img {
+    width: 200px;
+    margin: 0 auto;
+}
+
+.main-description {
+    font-family: "poppins";
+    font-weight: 200;
+    color: aliceblue;
+    padding: 3rem 2rem;
+    font-size: 1rem;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-area {
+    margin: 0 auto;
+    max-width: 260px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    font-family: "poppins";
+    font-weight: 400;
+    margin: 0.5rem 0;
+    padding: 0.25rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-primary {
+    background: var(--primary-color);
+    color: var(--quanternary-color);
+    border: var(--secondary-color) solid 2px;
+}
+
+.btn-primary:hover {
+    background: var(--ternary-color);
+    color: var(--primary-color);
+    border: var(--ternary-color) solid 2px;
+}
+
+.btn-secondary {
+    background: var(--primary-color);
+    color: var(--quanternary-color);
+    border: var(--ternary-color) solid 2px;
+}
+
+.btn-secondary:hover {
+    background: var(--ternary-color);
+    color: var(--primary-color);
+    border: var(--ternary-color) solid 2px;
+}
+
+.mobile-logo {
+    width: 28px;
+    position: fixed;
+    left: 16px;
+    top: 20px;
+}

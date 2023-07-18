@@ -1,0 +1,18 @@
+body {
+    background-size: 100%;
+}
+
+.mystyle {
+    position: absolute;
+    width: 100%;
+    overflow: hidden;
+    bottom: -360px;
+    z-index: -1;
+}
+
+@media screen and (max-width: 1024px) {
+    .mystyle {
+        position: fixed;
+        bottom: 0;
+    }
+}
